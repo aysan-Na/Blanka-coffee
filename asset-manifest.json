@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Blanka-coffee/static/css/main.de63ec85.css",
+    "main.js": "/Blanka-coffee/static/js/main.06a9a7b5.js",
+    "static/js/453.117b0875.chunk.js": "/Blanka-coffee/static/js/453.117b0875.chunk.js",
+    "static/media/backOfBanner.png": "/Blanka-coffee/static/media/backOfBanner.fb4bdf0e15302f60c221.png",
+    "static/media/RokhFaNum-Black.woff": "/Blanka-coffee/static/media/RokhFaNum-Black.c4646741374c12c3a795.woff",
+    "static/media/RokhFaNum-ExtraBold.woff": "/Blanka-coffee/static/media/RokhFaNum-ExtraBold.d0c8255cd6305946ffbf.woff",
+    "static/media/RokhFaNum-Bold.woff": "/Blanka-coffee/static/media/RokhFaNum-Bold.7cf99b3a46cdbaa9f28b.woff",
+    "static/media/RokhFaNum-SemiBold.woff": "/Blanka-coffee/static/media/RokhFaNum-SemiBold.779604a3bac461987832.woff",
+    "static/media/RokhFaNum-Light.woff": "/Blanka-coffee/static/media/RokhFaNum-Light.b2e0fdb52f03f30bd888.woff",
+    "static/media/RokhFaNum-Regular.woff": "/Blanka-coffee/static/media/RokhFaNum-Regular.ec28d1a03ecb955199e5.woff",
+    "static/media/RokhFaNum-Thin.woff": "/Blanka-coffee/static/media/RokhFaNum-Thin.e8e9b1a08d516298c72e.woff",
+    "static/media/RokhFaNum-Medium.woff": "/Blanka-coffee/static/media/RokhFaNum-Medium.ac1e2c1530c64fddeb8d.woff",
+    "static/media/دانه قهوه.jpg": "/Blanka-coffee/static/media/دانه قهوه.0b803919562813333da2.jpg",
+    "static/media/fonnts.com-YekanBakh-Regular.woff": "/Blanka-coffee/static/media/fonnts.com-YekanBakh-Regular.15a679ba22986db6a6c9.woff",
+    "static/media/fonnts.com-YekanBakh-Bold.woff": "/Blanka-coffee/static/media/fonnts.com-YekanBakh-Bold.9209778fc2f28e7195c0.woff",
+    "index.html": "/Blanka-coffee/index.html",
+    "main.de63ec85.css.map": "/Blanka-coffee/static/css/main.de63ec85.css.map",
+    "main.06a9a7b5.js.map": "/Blanka-coffee/static/js/main.06a9a7b5.js.map",
+    "453.117b0875.chunk.js.map": "/Blanka-coffee/static/js/453.117b0875.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de63ec85.css",
+    "static/js/main.06a9a7b5.js"
+  ]
+}
