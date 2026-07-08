@@ -1,0 +1,19 @@
+.end-magazine-link{
+    margin: 0 auto !important;
+    width: 90%;
+    padding:40px 0;
+    border-top: 1px solid #b0aca2;
+    font-family: yekanBakh;
+}
+.end-magazine-link p{
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(53, 53, 53);
+    font-family: rokhFaNum;
+}
+.end-magazine-link a{
+    color: var(--color-coffee);
+}
+.end-magazine-link div{
+    padding-bottom: 10px;
+}

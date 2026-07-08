@@ -1,0 +1,36 @@
+.mainMenu{
+    background-color: var(--color-E2DFD5) !important;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.divMenu{
+    width: 80%;
+    margin:0 auto;
+}
+
+.Menu-bar-box{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 1rem;
+    margin-bottom: 2.5rem;
+    overflow-x: scroll;
+}
+
+.mainMenu .Menu-title{
+    font-family: rokhFaNum;
+    font-weight: 700;
+    color: var(--color-brown);
+    font-size: 1.8rem;
+    text-align: center;
+}
+.mainMenu .Menu-title img{
+    width: 2.5rem;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+
+.Menu-box-items{
+    margin-top: 1rem;
+}

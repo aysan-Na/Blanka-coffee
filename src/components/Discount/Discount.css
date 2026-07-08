@@ -1,0 +1,62 @@
+.discount{
+    width: 100% !important;
+    background-image: url(../../../public/img/دانه\ قهوه.jpg);
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: yekanBakh;
+    padding: 30px 0;
+}
+.discount>div{
+    background-color: #191919;
+    width: 70%;
+    padding: 25px;
+
+}
+.discount .discount-box {
+    color: var(--color-white);
+    border: 2px dashed #aa8041;
+    border-radius: 3px;
+    padding: 40px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.discount .discount-box>div:first-child{
+    padding-right: 20px;
+}
+.discount .discount-box a{
+    padding: 5px 16px;
+    margin-top: 15px !important;
+    border-radius: 2px;
+    background-color: #aa8041;
+    color: var(--color-white);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.discount .discount-box img{
+    width: 160px;
+    height: 200px;
+}
+.discount .discount-box h4{
+    font-weight: 600;
+    font-size: 29px;
+
+}
+.discount .discount-box p{
+    padding-top: 8px;
+    font-size: 18px;
+}
+.discount .discount-box p span{
+    color: #aa8041;
+}

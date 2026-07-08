@@ -1,0 +1,39 @@
+.categories-product{
+    margin-top: 60px;
+    padding-bottom: 50px;
+
+}
+.categories-product .categories-nav{
+    text-align: center;
+
+}
+.categories-product .categories-nav h4{
+    font-family: rokhfanum;
+    font-weight: 700;
+    padding-top: 15px;
+    font-size: 30px;
+    color: var(--color-242424);
+
+}
+.categories-product .categories-nav p{
+    font-family: yekanBakh;
+    color: var(--color-3D3D3D);
+    font-size: 14px;
+
+}
+.categories-product .categories-content{
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 15px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 600px) {
+    .categories-product .categories-content .categories-content-box{
+        width: 100% !important;
+    }
+}    

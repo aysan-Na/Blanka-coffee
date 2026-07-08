@@ -1,0 +1,39 @@
+.magezians{
+    background-color: var(--color-E2DFD5);
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 40px;
+    position: relative;
+}
+.magezians .first-pattern-magezian{
+    top: 12%;
+    left: 18%;
+    position: absolute;
+
+}
+.magezians .second-pattern-magezian{
+    top: 20%;
+    right: 23%;
+    position: absolute;
+    
+}
+.magezians .magezians-header h4{
+    font-family: rokhfanum;
+    font-weight:700 ;
+    font-size: 29px;
+    padding-top: 15px;
+    color: var(--color-242424);
+}
+.magezians .magezians-header p{
+    color: var(--color-3D3D3D);
+    font-family: yekanBakh;
+    font-weight: 500;
+}
+.magezians .magezians-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}

@@ -1,0 +1,175 @@
+
+@media (max-width: 1200px) {
+    .menu .menu-bar{
+        width: 70%;
+    }
+}
+@media (max-width: 1100px) {
+    header .menu{
+        display: none;
+    }
+    header .menu-mobile{
+        display: flex;
+    }
+    .menu .menu-bar{
+        width: 80%;
+    }
+}
+
+@media (min-width: 1100px) {
+    header .menu{
+        display: flex;
+    }
+    header .menu-mobile{
+        display: none;
+    }
+    
+}
+@media (max-width: 990px) {
+    .menu-details .menu-details-title{
+        width: 100%;
+    }
+}
+
+@media (max-width: 950px) {
+    .banner .banner-details .banner-details-caption{
+        width: 600px;
+    }
+    .banner .banner-details .banner-details-img p{
+        font-size: 150px;
+    }
+    .first-pattern-magezian,.second-pattern-magezian{
+        display: none;
+    }
+
+}
+@media (max-width: 700px) {
+    .banner .banner-details .banner-details-caption{
+        display : none;
+    }
+    .banner .banner-details .banner-details-img p{
+        font-size: 133px;
+        margin-top: 45px;
+    }
+    .menu .menu-bar{
+        width: 80%;
+    }
+}
+@media (max-width: 850px) {
+    .about-us {
+        flex-wrap: wrap;
+    }
+    .about-us .about-image{
+        padding-top: 40px;
+        margin: 0 auto;
+    }
+    .instagram .insta-id p{
+        font-size: 34px;
+    }
+    .instagram .insta-img img{
+        width: 255px;
+    }
+}
+@media (max-width: 640px) {
+    .instagram .insta-img img{
+        width: 235px;
+    }
+    .instagram .insta-id p{
+        font-size: 22px;
+    }
+    .instagram .insta-id span{
+        font-size: 24px;
+
+    }
+}
+@media (max-width: 600px) {
+    .banner .banner-details .banner-details-img p{
+        font-size: 100px;
+        margin-top: 60px;
+    }
+    .banner .banner-titr span{
+        font-size: 40px !important;
+    }
+    .banner .banner-details .banner-details-img img {
+        width: 400px;
+    }
+    .categories-product .categories-content .categories-content-box{
+        width: 100%;
+    }
+    .discount .discount-box h4{
+        font-size: 24px;
+    }
+    .discount .discount-box p{
+        font-size: 14px;
+    }
+    .discount .discount-box a{
+        font-size: 13px;
+    }
+    .discount .discount-box img{
+        width: 141px;
+        height: 170px;
+        margin-top: 25px;
+    }
+
+}
+@media (max-width: 500px) {
+    .banner .banner-details .banner-details-img p{
+        font-size: 85px;
+        margin-top: 60px;
+    }
+    .banner .banner-details .banner-details-img img {
+        width: 385px;
+    }
+    .products .products-nav .products-bet ul li{
+        font-size: 13px;
+        margin: 0 5px;
+    }
+    .product-img-box img{
+        width: 230px;
+        height: 230px;
+    }
+    .menu .menu-bar .menu-bar-child .menu-details .border-span-manu {
+        letter-spacing: 0;
+    }
+    .about-us .about-image img:last-child{
+        width: 205px;
+        height: 399px;
+    }
+    
+    .magezians .magezians-box .magezians-box-child img,
+    .magezians .magezians-box  .magezians-box-child>div {
+        width: 310px;
+    }
+    .instagram .insta-img img{
+        width: 180px;
+    }
+    .instagram .insta-id p{
+        font-size: 20px;
+    }
+    .instagram .insta-id span{
+        font-size: 22px;
+    }
+    .breadcrumb{
+        display: none;
+    }
+}
+@media (max-width: 400px) {
+    .banner .banner-details .banner-details-img p{
+        font-size: 65px;
+        margin-top: 60px;
+    }
+    .banner .banner-titr span{
+        font-size: 26px !important;
+    }
+    .banner p{
+        font-size: 10px;
+    }
+    .banner .banner-details .banner-details-img img {
+        width: 335px;
+    }
+    
+    .banner a{
+        font-size:11px ;
+    }
+    
+}

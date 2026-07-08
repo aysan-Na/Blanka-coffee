@@ -1,0 +1,24 @@
+.categories-product .categories-content .categories-content-box{
+    padding:10px 12px;
+    background-color: var(--color-E2DFD5);
+    border-radius: 42px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+    width: 190px;
+    -webkit-border-radius: 42px;
+    -moz-border-radius: 42px;
+    -ms-border-radius: 42px;
+    -o-border-radius: 42px;
+}
+.categories-product .categories-content .categories-content-box img{
+    width: 44px;
+}
+.categories-product .categories-content .categories-content-box span{
+    font-family: rokhfanum;
+    font-weight: 700;
+    font-size: 23px;
+    color: var(--color-242424);
+}

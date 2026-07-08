@@ -1,0 +1,51 @@
+@font-face {
+    font-family:RokhFaNum ;
+    src: url(../../public/fonts/RokhFaNum-Thin.woff);
+    font-weight: 200;
+}
+@font-face {
+    font-family:RokhFaNum ;
+    src: url(../../public/fonts/RokhFaNum-Light.woff);
+    font-weight: 300;
+}
+@font-face {
+    font-family:RokhFaNum ;
+    src: url(../../public/fonts/RokhFaNum-Regular.woff);
+    font-weight: 400;
+}
+@font-face {
+    font-family:RokhFaNum ;
+    src: url(../../public/fonts/RokhFaNum-Medium.woff);
+    font-weight: 500;
+}
+@font-face {
+    font-family:RokhFaNum ;
+    src: url(../../public/fonts/RokhFaNum-SemiBold.woff);
+    font-weight: 600;
+}
+@font-face {
+    font-family:RokhFaNum ;
+    src: url(../../public/fonts/RokhFaNum-Bold.woff);
+    font-weight: 700;
+}
+@font-face {
+    font-family:RokhFaNum ;
+    src: url(../../public/fonts/RokhFaNum-ExtraBold.woff);
+    font-weight: 800;
+}
+@font-face {
+    font-family:RokhFaNum ;
+    src: url(../../public/fonts/RokhFaNum-Black.woff);
+    font-weight: 900;
+}
+@font-face {
+    font-family:yekanBakh ;
+    src: url(../../public/fonts/fonnts.com-YekanBakh-Regular.woff);
+    font-weight: 400;
+}
+@font-face {
+    font-family:yekanBakh ;
+    src: url(../../public/fonts/fonnts.com-YekanBakh-Bold.woff);
+    font-weight: 700;
+}
+

@@ -1,0 +1,48 @@
+
+.magezians .magezians-box  .magezians-box-child{
+    margin: 0 auto;
+}
+.magezians .magezians-box  .magezians-box-child>div {
+    width: 350px;
+    cursor: pointer;
+    margin-top: 30px;
+    
+}
+.magezians .magezians-box  .magezians-box-child .magezian-description {
+    background-color: #EBEBDC;
+    padding: 20px 15px;
+    text-align: right;
+    border-radius:0 0 15px 15px;
+    -webkit-border-radius:0 0 15px 15px;
+    -moz-border-radius:0 0 15px 15px;
+    -ms-border-radius:0 0 15px 15px;
+    -o-border-radius:0 0 15px 15px;
+}
+.magezians .magezians-box  .magezians-box-child .magezian-description h6{
+    font-weight: 600;
+    font-family: rokhfanum;
+    padding-bottom: 10px;
+
+}
+.magezians .magezians-box  .magezians-box-child .magezian-description p{
+    margin: 0;
+    width: 80%;
+    color: #777777;
+    font-family: yekanBakh;
+    font-size: 12px;
+}
+.magezians .magezians-box  .magezians-box-child .magezian-description a{
+    padding-top: 30px !important;
+    color: var(--color-coffee);
+    font-family: rokhfanum;
+    font-weight: 700;
+    font-size: 12px;
+}
+.magezians .magezians-box  .magezians-box-child img{
+    width: 350px;
+    border-radius: 15px 15px 0 0;
+    -webkit-border-radius: 15px 15px 0 0;
+    -moz-border-radius: 15px 15px 0 0;
+    -ms-border-radius: 15px 15px 0 0;
+    -o-border-radius: 15px 15px 0 0;
+}

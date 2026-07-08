@@ -1,0 +1,62 @@
+.about-us {
+    display: flex;
+    width: 80%;
+    
+    gap: 10%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.about-us .about-description img{
+    width: 60px;
+
+}
+.about-us .about-description > div{
+    font-family: rokhfanum;
+    font-weight: 600;
+    padding-bottom: 17px;
+    color: var(--color-242424);
+    font-size: 40px;
+}
+.about-us .about-description > div span{
+    font-weight: 500;
+}
+.about-us .about-description p{
+    font-family: yekanBakh;
+    line-height: 2;
+    padding-bottom: 20px;
+}
+.about-us .about-description a{
+    background-color: var(--color-coffee);
+    padding: 8px 20px;
+    color: var(--color-white);
+    border-radius: 34px;
+    font-family: rokhfanum;
+    -webkit-border-radius: 34px;
+    -moz-border-radius: 34px;
+    -ms-border-radius: 34px;
+    -o-border-radius: 34px;
+}
+
+.about-us .about-image {
+    display: flex;
+    align-items: start;
+    
+}
+.about-us .about-image img:first-child{
+    margin-top: -100px;
+    padding-left: 20px;
+}
+.about-us .about-image img:last-child{
+    width: 250px;
+    height: 460px;
+    margin-left: 50px;
+    padding: 8px;
+    border: 2px solid var(--color-242424);
+    border-radius: 160px;
+    -webkit-border-radius: 160px;
+    -moz-border-radius: 160px;
+    -ms-border-radius: 160px;
+    -o-border-radius: 160px;
+}

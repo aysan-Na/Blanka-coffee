@@ -1,0 +1,34 @@
+.breadcrumb {
+    border-radius: 5px !important;
+    background-color: #756458 !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+    padding: 15px !important;
+}
+
+.breadcrumb-box {
+    /* padding: 15px ; */
+    color: rgb(255, 255, 255);
+    font-family: yekanBakh;
+}
+
+.bread-Arrow-icon {
+    color: #c2b1a5;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+}
+
+.breadC-icon {
+    color: white;
+    font-size: 20px;
+}
+
+@media (max-width: 500px) {
+    .breadcrumb {
+        display: none !important;
+    }
+}

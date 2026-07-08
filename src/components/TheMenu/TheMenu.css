@@ -1,0 +1,32 @@
+.menu{
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 30px;
+}
+.menu h4{
+    font-family: rokhfanum;
+    font-weight: 700;
+    padding-top: 15px;
+    font-size: 30px;
+    color: var(--color-242424);
+}
+.menu p{
+    width: 40%;
+    margin: 0 auto;
+    font-family: yekanBakh;
+    color: var(--color-3D3D3D);
+    font-size: 14px;
+    padding-top: 10px;
+}
+.menu p a{
+    cursor: pointer;
+    color: var(--color-coffee) !important;
+}
+.menu .menu-bar{
+    width: 65%;
+    margin: 0 auto;
+
+}
+.menu .menu-bar > div{
+    margin-top: 40px;
+}

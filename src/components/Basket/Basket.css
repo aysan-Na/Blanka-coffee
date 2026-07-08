@@ -1,0 +1,67 @@
+.basket-box{
+    width: 350px;
+    height: 380px;
+    background-color: var(--main-color);
+    position: absolute;
+    box-shadow: 0 0 10px rgb(195, 195, 195);
+    border-radius: 10px;
+    left: 2%;
+    top: 10%;
+    font-family: yekanBakh;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.basket-box .basket-title{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.basket-box .basket-title p{
+    font-family: rokhFaNum !important;
+    font-size: 15px;
+}
+.basket-box .basket-title img{
+    width: 15px;
+}
+.basket-box .basket-title button{
+    border: none;
+    background-color: inherit;
+}
+
+.basket-box .basket-items{
+    height: 72%;
+    overflow-y: scroll;
+    padding: 10px;
+}
+.basket-box .amount-pay{
+    height: 18%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-top: 1px solid rgb(217, 217, 217);
+}
+.basket-box .amount-pay span{
+    color: gray;
+    font-size: 12px;
+}
+.basket-box .amount-pay p{
+    padding: 0;
+    margin: 0;
+    font-family: rokhFaNum;
+    font-weight: 600;
+}
+.basket-box .amount-pay button{
+    background-color: var(--color-coffee);
+    color: white;
+    border: none;
+    padding: 3px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

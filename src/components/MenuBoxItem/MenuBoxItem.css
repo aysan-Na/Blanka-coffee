@@ -1,0 +1,54 @@
+.Menu-box-item{
+    background-color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-family: yekanBakh;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+}
+.Menu-box-item .title{
+    font-weight: bold;
+    font-size: 17px;
+}
+.Menu-box-item .caption{
+    font-size: 15px;
+}
+.Menu-box-item .price{
+
+}
+.Menu-box-item img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    border-radius: 15px;
+    text-align: left !important;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.Menu-box-item button{
+    background-color: inherit;
+    color: rgb(228, 171, 64);
+    border: 2px solid rgb(228, 171, 64);
+    padding: 3px 25px;
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+}
+.Menu-box-item button:hover {
+    background-color: rgb(228, 171, 64);
+    color: var(--color-white);
+}
+
+.Menu-box-item .end-of-box{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:1rem;
+}

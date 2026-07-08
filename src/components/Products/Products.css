@@ -1,0 +1,39 @@
+.products{
+    background-color: var(--color-E2DFD5);
+    padding: 25px 0;
+    text-align: center;
+    width:100% !important;
+}
+
+.products .products-nav h4{
+    font-family: rokhfanum;
+    font-weight:600 ;
+    padding-top: 10px;
+    color: var(--color-brown);
+}
+.products .products-nav .products-bet{
+    margin-top: 15px;
+}
+
+.products .products-nav .products-bet ul li{
+    display: inline-block;
+    margin: 0 16px;
+    color: #333333;
+    opacity: 70%;
+    font-family: rokhfanum;
+    font-weight:600 ;
+    cursor: pointer;
+}
+.products .products-nav .products-bet ul li.active{
+    opacity: 100%;
+    border-bottom: 2px solid var(--color-coffee);
+}
+
+.products .product-content{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap:wrap;
+    
+}
