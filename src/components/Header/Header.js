@@ -61,20 +61,20 @@ export default function Header() {
                   </li><span>|</span>
                 </>
               ))}
-              <li><a href="#">امکانات بلانکا</a> <img src="/img/icon1.svg" /></li>
+              <li><a href="#">امکانات بلانکا</a> <img src={process.env.PUBLIC_URL +"/img/icon1.svg"} /></li>
             </ul>
           </nav>
         </div>
         <div className="menu-left">
           <div className="search">
-            <a href="#"><img src="/img/icon-search.svg" alt="جستجو" /></a>
+            <a href="#"><img src={process.env.PUBLIC_URL +"/img/icon-search.svg"} alt="جستجو" /></a>
           </div>
           <div className="loginButton">
-            <img src="/img/icon3.svg" alt="ورود/ثبت نام" />
+            <img src={process.env.PUBLIC_URL +"/img/icon3.svg"} alt="ورود/ثبت نام" />
             <span>ورود/ثبت نام</span>
           </div>
           <div className="basket" onClick={() => setShowBasket(true)}>
-            <img src="/img/Icon2.svg" alt="سبد خرید" />
+            <img src={process.env.PUBLIC_URL +"/img/Icon2.svg"} alt="سبد خرید" />
             <span className="basket-price">{priceBasket}</span>
             <span>تومان</span>
           </div>
@@ -91,14 +91,14 @@ export default function Header() {
 
       <div className="menu-mobile">
         <div className="list-menu" >
-          <img id="list-menu" src="/img/icon-list.svg" alt="navBarIcon" onClick={showMenuMobile} />
+          <img id="list-menu" src={process.env.PUBLIC_URL +"/img/icon-list.svg"} alt="navBarIcon" onClick={showMenuMobile} />
           <div id="list-menu-mobile" className={isMenuMobile ? 'list-menu-mobile d_block' : 'list-menu-mobile'}>
             <div id="menu-close" onClick={closeMenuMobile}>
-              <img src="/img/icon-close.png" alt="بستن" />
+              <img src={process.env.PUBLIC_URL +"/img/icon-close.png"} alt="بستن" />
             </div>
             <div className="main-buttons">
-              <a href="#"><img src="/img/icon-search.svg" alt="جستجو" /></a>
-              <a href="#"><img src="/img/icon3.svg" alt="ورود/عضویت" /></a>
+              <a href="#"><img src={process.env.PUBLIC_URL +"/img/icon-search.svg"} alt="جستجو" /></a>
+              <a href="#"><img src={process.env.PUBLIC_URL +"/img/icon3.svg"} alt="ورود/عضویت" /></a>
             </div>
             <div>
               <ul className="nav-mobile">
@@ -114,7 +114,7 @@ export default function Header() {
                     </li>
                   </>
                 ))}
-                <li><span>امکانات بلانکا</span><img src="/img/icon1.svg" /></li>
+                <li><span>امکانات بلانکا</span><img src={process.env.PUBLIC_URL +"/img/icon1.svg"} /></li>
               </ul>
             </div>
           </div>

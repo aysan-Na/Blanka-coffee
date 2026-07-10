@@ -8,7 +8,7 @@ export default function MagazineItem(magazine) {
     return (
         <div className='col-lg-4 col-md-6 col-sm-12'>
             <div className='magezine-item-box'>
-                <img src={magazine.img}></img>
+                <img src={process.env.PUBLIC_URL +magazine.img}></img>
                 <div className='caption-ma'>
                     <h6>{magazine.title}</h6>
                     <p>{magazine.magazineDesc.para1}</p>

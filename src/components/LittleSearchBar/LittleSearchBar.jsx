@@ -20,7 +20,7 @@ export default function LittleSearchBar({ type, products, title ,clickBasketHand
         <>
             <div className='searchbar'>
                 <input onKeyUp={e => searchHandler(e)} placeholder={title}></input>
-                <img src={process.env.PUBLIC_URL + "img/icon-search.svg"} alt="جستجو" />
+                <img src={process.env.PUBLIC_URL + "/img/icon-search.svg"} alt="جستجو" />
             </div>
 
             <div className='searched-items'>

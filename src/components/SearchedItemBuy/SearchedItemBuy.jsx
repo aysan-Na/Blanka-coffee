@@ -7,7 +7,7 @@ export default function SearchedItemBuy({img,price,title,clickBasketHandler}) {
     return (
         <div className='searched-item'>
             <div className='searched-right'>
-                <img src={img} />
+                <img src={process.env.PUBLIC_URL +img} />
                 <span>{title}</span>
             </div>
             <div className='searched-left'>

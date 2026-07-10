@@ -8,9 +8,9 @@ export default function Footer() {
     <footer>
         <div className="footer">
             <div className="footer-description">
-                <FooterItem title="تلفن تماس" caption="09133654513" icon="/img/icon-telefon.svg" />
-                <FooterItem title="آدرس" caption="جاده چالوس،رشت،رادیو دریا" icon="/img/icon-telefon.svg" />
-                <FooterItem title="ساعات کاری" caption="8 صبح الی 11 شب" icon="/img/icon-telefon.svg" />
+                <FooterItem title="تلفن تماس" caption="09133654513" icon={process.env.PUBLIC_URL +"/img/icon-telefon.svg"} />
+                <FooterItem title="آدرس" caption="جاده چالوس،رشت،رادیو دریا" icon={process.env.PUBLIC_URL +"/img/icon-telefon.svg"} />
+                <FooterItem title="ساعات کاری" caption="8 صبح الی 11 شب" icon={process.env.PUBLIC_URL +"/img/icon-telefon.svg"} />
             </div>
             <hr />
             <div className="footer-links">
@@ -43,13 +43,13 @@ export default function Footer() {
                 </div>
                 <div className="footer-end">
                     <div className="footer-media">
-                        <img src="/img/icon-insta.svg" alt="اینستاگرام" />
+                        <img src={process.env.PUBLIC_URL +"/img/icon-insta.svg"} alt="اینستاگرام" />
                     </div>
                     <div className="footer-media">
-                        <img src="/img/icon-whatsapp.svg" alt="واتساپ" />
+                        <img src={process.env.PUBLIC_URL +"/img/icon-whatsapp.svg"} alt="واتساپ" />
                     </div>
                     <div className="footer-media">
-                        <img src="/img/icon-telegram.svg" alt="تلگرام" />
+                        <img src={process.env.PUBLIC_URL +"/img/icon-telegram.svg"} alt="تلگرام" />
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@ export default function Footer() {
                     <p>تمام حقوق این سایت متعلق به سایت بلانکا می باشد.</p>
                 </div>
                 <div>
-                    <img src="/img/Enamad.png" alt="انماد" />
+                    <img src={process.env.PUBLIC_URL +"/img/Enamad.png"} alt="انماد" />
                 </div>
                 
             </div>

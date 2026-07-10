@@ -51,7 +51,7 @@ export default function Menu() {
                 {menus.map(menu => (
                   <MenuBarItem
                     title={menu.title}
-                    img={menu.img}
+                    img={process.env.PUBLIC_URL + menu.img}
                     active={menu.name === activeMenu ? true : false}
                     clickHandler={() => clickMenuHandler(menu.name)}
                   />
@@ -62,7 +62,7 @@ export default function Menu() {
                 menu.name === activeMenu && (
                   <>
                     <div className='Menu-title'>
-                      <img src={menu.img} /> <span>{menu.title}</span>
+                      <img src={process.env.PUBLIC_URL + menu.img} /> <span>{menu.title}</span>
                     </div>
                     <div className='Menu-box-items'>
                       <ToastContainer />
@@ -70,7 +70,7 @@ export default function Menu() {
                         {menu.items.map(item => (
                           <MenuBoxItem
                             title={item.title}
-                            img={item.img}
+                            img={process.env.PUBLIC_URL +item.img}
                             caption={item.caption}
                             price={item.price}
                             clickBasketHandler={() => clickBasketHandler(item)}

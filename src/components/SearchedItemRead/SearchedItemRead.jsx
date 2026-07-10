@@ -7,7 +7,7 @@ export default function SearchedItemRead(product) {
     return (
         <div className='searched-item-read'>
             <NavLink to={`/magazine/${product.link}`}>
-                <img src={product.img} />
+                <img src={process.env.PUBLIC_URL + product.img} />
                 <span>{product.title}</span>
             </NavLink>
         </div>
