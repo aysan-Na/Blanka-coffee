@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Blanka-coffee/static/css/main.de63ec85.css",
-    "main.js": "/Blanka-coffee/static/js/main.5b83029b.js",
+    "main.js": "/Blanka-coffee/static/js/main.d08ffec3.js",
     "static/js/453.117b0875.chunk.js": "/Blanka-coffee/static/js/453.117b0875.chunk.js",
     "static/media/backOfBanner.png": "/Blanka-coffee/static/media/backOfBanner.fb4bdf0e15302f60c221.png",
     "static/media/RokhFaNum-Black.woff": "/Blanka-coffee/static/media/RokhFaNum-Black.c4646741374c12c3a795.woff",
@@ -17,11 +17,11 @@
     "static/media/fonnts.com-YekanBakh-Bold.woff": "/Blanka-coffee/static/media/fonnts.com-YekanBakh-Bold.9209778fc2f28e7195c0.woff",
     "index.html": "/Blanka-coffee/index.html",
     "main.de63ec85.css.map": "/Blanka-coffee/static/css/main.de63ec85.css.map",
-    "main.5b83029b.js.map": "/Blanka-coffee/static/js/main.5b83029b.js.map",
+    "main.d08ffec3.js.map": "/Blanka-coffee/static/js/main.d08ffec3.js.map",
     "453.117b0875.chunk.js.map": "/Blanka-coffee/static/js/453.117b0875.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de63ec85.css",
-    "static/js/main.5b83029b.js"
+    "static/js/main.d08ffec3.js"
   ]
 }
