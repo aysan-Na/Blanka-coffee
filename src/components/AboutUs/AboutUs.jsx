@@ -13,8 +13,8 @@ export default function AboutUs() {
                     </div>
                 </div>
                 <div className="about-image">
-                    <img src="img/Container-about.svg" />
-                    <img src="img/about-us.jpg"/>
+                    <img src={process.env.PUBLIC_URL + "img/Container-about.svg"} />
+                    <img src={process.env.PUBLIC_URL + "img/about-us.jpg"} />
                 </div>
             </div>
         </section>

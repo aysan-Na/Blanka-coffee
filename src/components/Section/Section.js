@@ -34,7 +34,7 @@ export default function Section() {
                 <a href="#">نمایش محصولات</a>
                 <div className="banner-details">
                     <div className="banner-details-img">
-                        <img src="img/banner.svg" alt="قهوه" />
+                        <img src={process.env.PUBLIC_URL + "img/banner.svg"} alt="قهوه" />
                         <p>COFFEE</p>
                     </div>
                     <div className="banner-details-caption">

@@ -12,7 +12,7 @@ export default function TheMenu() {
         <section>
             <div className="menu">
                 <h4>پرطرفدارترین های منو</h4>
-                <img src="img/icon-coffee.svg" className="icon-coffee" alt="ایکون قهوه" />
+                <img src={process.env.PUBLIC_URL + "img/icon-coffee.svg"} className="icon-coffee" alt="ایکون قهوه" />
                 <NavLink to='/menu'>
                     <p>محصولات پرطرفدار خانه قهوه بلانکا که علاقه مندان زیادی دارد را با بهترین کیفیت تجربه کنید برای مشاهده تمام محصولات <a>کلیک کنید.</a></p>
                 </NavLink>

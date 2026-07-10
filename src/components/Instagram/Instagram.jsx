@@ -12,7 +12,7 @@ export default function Instagram() {
                     </div>
                 </div>
                 <div className="insta-img">
-                    <img src="img/instagram.png" alt="id" />
+                    <img src={process.env.PUBLIC_URL + "img/instagram.png"} alt="id" />
                 </div>
             </div>
         </section>

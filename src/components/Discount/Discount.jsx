@@ -13,7 +13,7 @@ export default function Discount() {
                            <a href="#">خرید</a>
                        </div>
                        <div>
-                           <img src="img/pack.png" alt="بسته قهوه" />
+                           <img src={process.env.PUBLIC_URL + "img/pack.png"} alt="بسته قهوه" />
                        </div>
                     </div>
                 </div>
