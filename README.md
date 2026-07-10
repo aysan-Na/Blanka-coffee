@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://aysan-Na.github.io/Blanka-coffee/">
-    <img src="./preview.png" alt="Coffee Website Preview" width="100%">
+    <img src="./public/img/preview.gif" alt="Coffee Website Preview" width="100%">
   </a>
 </p>
 

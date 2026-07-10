@@ -7,7 +7,7 @@ export default function BasketItem(item) {
   return (
     <div className='basket-item'>
         <div>
-            <img src={item.img} />
+            <img src={process.env.PUBLIC_URL + item.img} />
             <span>{item.title}</span>
         </div>
         <div className='left'>

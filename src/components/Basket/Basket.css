@@ -2,6 +2,7 @@
     width: 350px;
     height: 380px;
     background-color: var(--main-color);
+    z-index: 999;
     position: absolute;
     box-shadow: 0 0 10px rgb(195, 195, 195);
     border-radius: 10px;

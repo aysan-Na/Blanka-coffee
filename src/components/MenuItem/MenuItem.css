@@ -37,11 +37,13 @@
 .menu-details .menu-details-title>.price{
     color: var(--color-coffee);
     font-size:14px ;
+    padding-right: 7px;
 }
 .menu-details .menu-details-title>.title{
     font-weight: 600;
     color: var(--color-242424);
     font-size: 14px;
+    padding-left: 7px;
 
 }
 

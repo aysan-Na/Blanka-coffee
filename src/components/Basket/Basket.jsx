@@ -8,7 +8,7 @@ export default function Basket({ close,price, basketItem }) {
                 <div className='basket-box'>
                     <div className='basket-title'>
                         <p>{basketItem.length} کالا</p>
-                        <button onClick={close}><img src='/img/icon-close.png' /></button>
+                        <button onClick={close}><img src={process.env.PUBLIC_URL +'/img/icon-close.png'} /></button>
                     </div>
                     <div className='basket-items'>
                         {basketItem.map(item => (
