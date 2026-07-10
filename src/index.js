@@ -10,7 +10,7 @@ import "./styles/variables.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/Blanka-coffee">
     <App />
   </BrowserRouter>
 );
