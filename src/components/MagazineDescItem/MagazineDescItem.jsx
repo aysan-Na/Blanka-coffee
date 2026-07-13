@@ -6,7 +6,7 @@ export default function MagazineDescItem(item) {
         <div className='last-magazine-item'>
             <div className='row'>
                 <div className='col-3'>
-                    <img src={item.img} />
+                    <img src={process.env.PUBLIC_URL + item.img} />
                 </div>
                 <div className='last-m-caption col-9'>
                     <p>{item.title}</p>

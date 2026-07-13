@@ -22,7 +22,7 @@ export default function MagazineDesc() {
       <section className='magazine-desc-section' style={{ marginTop: "1rem" }}>
         <div className='magazine-desc-row'>
           <div className='row'>
-            <div className='col-8'>
+            <div className='col-lg-8 col-md-12'>
               <Breadcrumb
                 links={[
                   { id: 1, title: "وبلاگ", to: '/magazine' },
@@ -30,7 +30,7 @@ export default function MagazineDesc() {
                 ]}
               />
               <div className='magazine-desc'>
-                <img src={img} />
+                <img src={process.env.PUBLIC_URL + img} />
                 <div className='magazine-d-body'>
                   <h3 className='magazine-d-title'>{title}</h3>
                   <p className='magazine-d-uptitle'>در این مطلب از سایت بلانکا  به {message} برای شما عزیزان خواهیم پرداخت.با ما در این مقاله همراه باشید.</p>
@@ -38,7 +38,7 @@ export default function MagazineDesc() {
                   <p className='magazine-d-p'>{magazineDesc.morePara1}</p>
                   <p className='magazine-d-subtitle' >{magazineDesc.titr1}</p>
                   <p className='magazine-d-p'>{magazineDesc.para2}</p>
-                  <img src={magazineDesc.image} style={{ borderRadius: '15px' }} />
+                  <img src={process.env.PUBLIC_URL + magazineDesc.image} style={{ borderRadius: '15px' }} />
                   <p className='magazine-d-subtitle' >{magazineDesc.titr2}</p>
                   <p className='magazine-d-p'>{magazineDesc.para3}</p>
                   <p className='magazine-d-subtitle' >{magazineDesc.titr3}</p>
@@ -52,7 +52,7 @@ export default function MagazineDesc() {
 
             </div>
 
-            <div className='col-4'>
+            <div className='col-lg-4 col-md-12'>
               <div className='last-magazine'>
                 <div className='last-m-title' >آخرین مقالات منتشر شده</div>
                 {lastMagazine.map(item => (
@@ -64,9 +64,9 @@ export default function MagazineDesc() {
                 </div>
               </div>
               <div className='suggestion-product'>
-                <ProductContent img="/img/اسپرسو ویتالی.png" />
-                <ProductContent img="/img/اسپرسو جیورنو.png" />
-                <ProductContent img="/img/اسپرسو لیدی.png" />
+                <ProductContent img={process.env.PUBLIC_URL + "/img/اسپرسو ویتالی.png"} />
+                <ProductContent img={process.env.PUBLIC_URL + "/img/اسپرسو جیورنو.png"} />
+                <ProductContent img={process.env.PUBLIC_URL + "/img/اسپرسو لیدی.png"} />
               </div>
             </div>
           </div>
